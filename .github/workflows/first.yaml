@@ -23,7 +23,7 @@ jobs:
             - name: Run ETL Pipeline
               run: |
                 source venv/bin/activate
-                python src/etl.ipynb
+                python src/etl.py
 
 
 
