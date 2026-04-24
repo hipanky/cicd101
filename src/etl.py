@@ -22,7 +22,7 @@ df['salary'] = df['salary'] * 1.1
 # conn = sqlite3.connect('test.db')
 # df.to_sql('users', conn, if_exists='replace', index=False)
 
-# print("ETL Completed")
+print("ETL Completed")
 
 
 
