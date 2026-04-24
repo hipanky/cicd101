@@ -12,7 +12,7 @@ import sqlite3
 
 
 # Extract
-df = pd.read_csv('../data/data101.csv')
+df = pd.read_csv('data/data101.csv')
 
 # Transform
 df['age'] = df['age'].fillna(0)
